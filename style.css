@@ -1,13 +1,16 @@
 body{
     border: relative;
     border-width: 50px;
+    margin: 30px;
+    font: 16px;
+    font-family: 
 }
 
 
 h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Kaushan Script', cursive;
     color: black;
-    font-size: 40px;
+    font-size: 90px;
     font-weight: bold;
     text-align: center;
 }
@@ -22,7 +25,14 @@ nav{
 
 ul{
     background-color: lightgray;
-
+    list-style-type: disc;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-right:20px;
+    padding-left: 20px; 
 
 }
 
@@ -31,3 +41,14 @@ li{
     color: Black;
     text-align: center;
 }
+
+.photo{
+    float: left;
+    padding: 40px;
+}
+
+.about{
+    float: middle right;
+    padding: 40px;
+}
+
