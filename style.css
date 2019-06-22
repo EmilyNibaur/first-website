@@ -1,8 +1,3 @@
-*{
-    background color: tan;
-}
-
-
 body{
     border: relative;
     border-width: 50px;
@@ -15,14 +10,24 @@ h1{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-
-
 }
 
 nav{
-    display: block;
+    display: in-line block;
     font-family: cursive;
     color: green;
     width: 50;
     height: 10;
+}
+
+ul{
+    background-color: lightgray;
+
+
+}
+
+li{
+    display: inline-block;
+    color: Black;
+    text-align: center;
 }
